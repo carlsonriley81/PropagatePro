@@ -32,6 +32,7 @@ export async function POST(request: NextRequest) {
         isOn: false,
         lastCommand: "light_off",
         lastPing: new Date(),
+        status: "online",
       },
     });
 
